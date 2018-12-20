@@ -1,40 +1,58 @@
 <!-- shape Hero -->
-<section class="intro section section-lg bg-gradient-primary pb-250">
-  <div class="container-fluid py-lg-md">
+<section class="intro section">
+  <div class="container-fluid">
+
+<div class="row position-relative">
+
+{% if site.video-bg %}
+<div class="fullscreen-bg">
+<video class="video-bg" poster="{{site.baseurl}}/assets/img/slider/Broadwaycrew.jpg" muted loop autoplay>
+  <source src="{{site.baseurl}}/assets/img/slider/Broadwaycrew.webm" type="video/webm">
+  <source src="{{site.baseurl}}/assets/img/slider/Broadwaycrew.mp4" type="video/mp4">
+
+</video>
+
+<div class="video-content">
+  <h1 class="display-3 text-white">Video Background</h1>
+  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus porro, autem amet veritatis repellendus itaque assumenda illum et sunt veniam, voluptatibus odit ipsam tenetur vero possimus vel aspernatur eius cumque.</p>
+  <a href="#" class="btn btn-primary mt-4">Learn more</a>
+</div>
+</div>
+
+{% else %}
 
 
-
-  <div id="intro-carousel" class="carousel slide" data-ride="carousel">
+  <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
       <div class="carousel-inner">
+
         <div class="carousel-item active">
-          <div class="row">
-          <div class="col-md-8">
-            </div>
-            <div class="col-md-4">
-              <img src="/img/slider/slide-2.svg" alt="">
-            </div>
-          </div>
+              <div class="image" style="background-image: url({{site.baseurl}}/assets/img/slider/slider-1.jpg)"></div>
+        </div>
+
+        <div class="carousel-item">
+              <div class="image" style="background-image: url({{site.baseurl}}/assets/img/slider/slider-2.jpg)"></div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+              <div class="image" style="background-image: url({{site.baseurl}}/assets/img/slider/slider-3.jpg)"></div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-        </div>
+
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      <a class="carousel-control-prev" href="#intro-carousel" role="button" data-slide="prev">
+        <img width="50" src="{{site.baseurl}}/assets/img/slider/prev.svg" alt="">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <a class="carousel-control-next" href="#intro-carousel" role="button" data-slide="next">
+        <img width="50" src="{{site.baseurl}}/assets/img/slider/next.svg" alt="">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
         <span class="sr-only">Next</span>
       </a>
     </div>
 
+{% endif %}
 
-
-
+</div>
     </div>
 
 </section>
