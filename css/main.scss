@@ -7,7 +7,7 @@
 // Our variables
 $base-font-family: 'Open Sans', sans-serif;
 $base-font-family: 'Poppins', sans-serif;
-$base-font-size:   20px;
+$base-font-size:   1rem;
 
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -48,7 +48,7 @@ $on-iphone:        480px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "argon",
+        "bootstrap",
         "custom"
 
 ;

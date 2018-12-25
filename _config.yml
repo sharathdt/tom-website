@@ -1,5 +1,17 @@
+title: Tom.com.bo
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magnam ad nulla iusto aspernatur maxime neque autem maiores quia quae, quisquam earum minima excepturi consequuntur. Sed repudiandae quos, animi enim.
 
+footer-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magnam ad nulla iusto aspernatur maxime neque autem maiores quia quae, quisquam earum minima excepturi consequuntur.
 
+logo-white: /assets/img/brand/fake-logo.png
+logo-color: /assets/img/brand/fake-logo-color.png
+
+address: Fabrikstrasse 5 | 6330 Cham | Switzerland
+email: tom@tom.com.bo
+phone: +41-79-3353842
+
+linkedin: https://linkedin.com
+instagram: https://instagram.com/
 
 baseurl: /tom-website
 video-bg: no

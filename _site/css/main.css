@@ -13222,4 +13222,31 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
     background-color: rgba(0, 0, 0, 0.15); }
 
 .footer {
-  background: #333; }
+  padding-bottom: 0;
+  background: #191d2f; }
+  .footer p, .footer li, .footer a {
+    font-size: 0.875rem; }
+  .footer h5 {
+    font-weight: 600; }
+  .footer h5, .footer a, .footer li, .footer p {
+    color: #ddd; }
+  .footer ul {
+    padding-left: 0.5em; }
+    @media screen and (max-width: 600px) {
+      .footer ul {
+        padding-left: 1em; } }
+  .footer .social {
+    padding: 0; }
+    .footer .social .nav-link {
+      padding: 0;
+      margin-right: 10px; }
+  .footer .logo-box img {
+    opacity: 0.7; }
+  .footer .dark {
+    background-color: #111;
+    font-size: 0.6125rem; }
+    .footer .dark p {
+      margin: 0; }
+
+.about-social-links li {
+  margin-right: 10px; }
