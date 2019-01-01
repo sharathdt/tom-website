@@ -247,7 +247,7 @@
   padding: 0 !important;
 
   .modal {
-    background: #fff !important;
+    // background: #fff !important;
   }
   .modal-dialog {
     max-width: 100% !important;
@@ -258,9 +258,34 @@
   }
 
   .modal-content {
+    background: rgba(0, 0, 0, 0.68);
     height: auto;
     min-height: 100%;
-    max-width: 500px;
+    max-width: 100%;
     border-radius: 0;
   }
+.modal-header, .modal-footer {
+  border: none;
+}
+
+  input {
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $brand-color;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    &:focus, &:active {
+      outline: none;
+      border-bottom: 2px solid $brand-color;
+    }
+  }
+
+
+.close > span:not(.sr-only) {
+  color: white;
+  font-size: 2rem;
+}
+
 }

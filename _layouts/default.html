@@ -85,6 +85,16 @@ $('video').prop('muted',true).play()
 });
 </script>
 {% endif %}
+
+<!-- Search autofocus -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#search").on('shown.bs.modal', function(){
+        $(this).find('#search-input').focus();
+    });
+});
+</script>
+
 </body>
 
 </html>
