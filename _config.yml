@@ -13,5 +13,7 @@ phone: +41-79-3353842
 linkedin: https://linkedin.com
 instagram: https://instagram.com/
 
-baseurl: /tom-website
+#baseurl: /tom-website
 video-bg: no
+
+destination: public
